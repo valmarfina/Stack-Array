@@ -1,0 +1,3 @@
+D:/study/POLYTEC/algoritms/3_stack/cmake-build-debug/CMakeFiles/3_stack.dir
+D:/study/POLYTEC/algoritms/3_stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/study/POLYTEC/algoritms/3_stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
