@@ -70,7 +70,8 @@ int main() {
   return 0;
 }
 
-//правильности расстановки скобок
+//правильность расстановки скобок
+// bracketing is correct
 bool checkBalanceBrackets(const char *text, int maxDeep)
 {
   char temp;
@@ -125,7 +126,8 @@ int priority(char operation)
   }
 }
 
-//функцию перевода арифметического выражения из инфиксной формы в постфиксную
+//функция перевода арифметического выражения из инфиксной формы в постфиксную
+//translate an arithmetic expression from the infix to postfix form
 bool getPostfixFromInfix(const char *infix, std::string &postfix, size_t stackSize)
 {
   postfix.clear();
@@ -162,6 +164,7 @@ bool getPostfixFromInfix(const char *infix, std::string &postfix, size_t stackSi
   return true;
 }
 //вычисления значения арифметического выражения в постфиксной форме
+//calculate the value of an arithmetic expression in postfix form
 int evaluatePostfix(const char *infix, size_t stackSize)
 {
   StackArray<int> stack(stackSize);
@@ -198,7 +201,8 @@ int evaluatePostfix(const char *infix, size_t stackSize)
   }
 }
 
-//анализа правильности расстановки скобок
+//анализ правильности расстановки скобок
+// analyze the correctness of the brackets
 bool BalanceBrackets()
 {
   const char *text00 = " ok ";
@@ -248,6 +252,7 @@ bool ToPostfix()
 }
 
 //вычисления значения арифметического выражения в постфиксной форме
+//calculating the value of an arithmetic expression in postfix form
 bool testEvaluatePostfix()
 {
   const char *text00 = "32+4*5-";
